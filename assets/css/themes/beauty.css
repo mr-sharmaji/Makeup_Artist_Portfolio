@@ -1,0 +1,170 @@
+:root {
+    --color-primary: #D67DCE;
+    --color-secondary: #FB9C37;
+    --color-gradient-start: #D77DCB;
+    --color-gradient-stop: #FEA426;
+}
+
+body {
+    font-family: open sans, sans-serif;
+    font-size: 15px;
+    line-height: 1.9em;
+    font-weight: 400;
+    color: #828282
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+    font-family: prata, sans-serif;
+    color: #000
+}
+
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+    font-family: playfair display, serif
+}
+
+.h1,
+h1 {
+    font-size: 52px;
+    line-height: 1.4em
+}
+
+.h2,
+h2 {
+    font-size: 42px;
+    line-height: 1.3em
+}
+
+.h3,
+h3 {
+    font-size: 30px;
+    line-height: 1.6em
+}
+
+.h4,
+h4 {
+    font-size: 25px;
+    line-height: 1.7em
+}
+
+.h5,
+h5 {
+    font-size: 25px;
+    line-height: 1.8em
+}
+
+.h6,
+h6 {
+    font-size: 18px;
+    line-height: 1.6em
+}
+
+#content {
+    background-image: url(../../demo/bg/creative-content-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top
+}
+
+.secondarybar-wrap:first-child {
+    background: -webkit-gradient(linear, left top, right top, from(#FEA32A), to(#D67DCE));
+    background: linear-gradient(90deg, #FEA32A 0%, #D67DCE 100%)
+}
+
+.secondarybar .header-module {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.secondarybar .iconbox h3 {
+    font-family: inherit
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+.main-nav>li>a {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: #727475;
+    text-transform: uppercase
+}
+
+.main-nav>li.is-active>a,
+.main-nav>li.current-menu-item>a,
+.main-nav>li:hover>a,
+.main-nav>li>a:hover {
+    color: var(--color-primary)
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form .ui-selectmenu-button {
+    border-color: #f1f1f1;
+    color: #fff
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus,
+.contact-form .ui-selectmenu-button:focus {
+    border-color: #fff;
+    color: #fff
+}
+
+.contact-form input[type=submit] {
+    border: none;
+    background: rgba(255, 255, 255, .9);
+    color: #a3a3a3
+}
+
+.ld-media-row {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.ld-media-row>div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px
+}
+
+.main-footer {
+    color: #a1a3ab
+}
+
+.main-footer a:not(.btn) {
+    color: #777981
+}
+
+.main-footer a:not(.btn):hover {
+    color: #fff
+}
+
+.main-footer .social-icon a {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .15)
+}
+
+.main-footer .social-icon a:hover {
+    background-color: var(--color-primary)
+}

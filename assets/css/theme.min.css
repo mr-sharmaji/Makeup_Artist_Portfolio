@@ -1843,7 +1843,7 @@ input:focus ~ .liquid-cl-3:after, textarea:focus ~ .liquid-cl-3:after, .input-fo
 .pricing-table-modern ul li:not(:last-child) { margin-bottom: 1.45em; }
 .pricing-table-modern .pricing-table-footer { margin-top: 60px; }
 .pricing-table-modern.featured { color: #fff; }
-.pricing-table-modern.featured:before { background: -webkit-gradient(linear, left top, left bottom, from(#0856F7), to(#1DFFDD)); background: linear-gradient(to bottom, #0856F7 0%, #1DFFDD 100%); }
+.pricing-table-modern.featured:before { background: -webkit-gradient(linear, left top, left bottom, from(#D67DCE), to(#FB9C37)); background: linear-gradient(to bottom, #D67DCE 0%, #FB9C37 100%); }
 .pricing-table-modern.featured h5, .pricing-table-modern.featured .pricing, .pricing-table-modern.featured .pricing small { color: inherit; }
 .pricing-table-modern.featured[class*=bg-]:before { background: inherit; }
 
